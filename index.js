@@ -78,7 +78,7 @@ function checkScore() {
       };
       games.push(game)
       localStorage.setItem("games", JSON.stringify(games));
-      return
+      return;
     }
   })
 
@@ -96,7 +96,7 @@ function checkScore() {
       };
       games.push(game)
       localStorage.setItem("games", JSON.stringify(games));
-      return
+      return;
     }
   })
 }

@@ -8,6 +8,7 @@ nav {
   background-color: rgb(0, 0, 0);
   color: greenyellow;
   border-radius: 50%;
+  border: solid 2px greenyellow;
   display: flex;
   justify-content: center;
 }
@@ -18,12 +19,17 @@ nav>a {
   font-size: 4vh;
   color: greenyellow;
   text-decoration: none;
+
 }
 
 h1 {
   font-family: 'Play', sans-serif;
   color: greenyellow;
+  background-color: black;
   text-align: center;
+  width: 25vw;
+  border-radius: 50%;
+  border: solid 2px greenyellow;
 }
 
 footer {
@@ -31,7 +37,7 @@ footer {
   font-size: 2.5vh;
   color: greenyellow;
   background-color: black;
-  border: solid 2px greenyellow;
+  border: dotted 2px greenyellow;
   justify-content: center;
   text-align: center;
 }
@@ -69,6 +75,24 @@ section {
 #info {
   font-family: 'Play', sans-serif;
   color: orangered;
+  border: solid 2px orangered;
+  background-color: black;
+  padding: 10px;
+}
+
+#loginForm {
+  font-family: 'Play', sans-serif;
+  color: greenyellow;
+  border: solid 2px greenyellow;
+  background-color: black;
+  padding: 10px;
+}
+
+#button {
+  color: greenyellow;
+  background-color: black;
+  border: solid 2px greenyellow;
+
 }
 
 .square {
@@ -105,7 +129,7 @@ section {
   height: 220px;
   display: flex;
   flex-wrap: wrap;
-  border: solid 2px black;
+  border: solid 2px greenyellow;
 }
 
 #CreateNewPlayer {
