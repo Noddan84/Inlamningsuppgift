@@ -27,8 +27,11 @@ h1 {
 }
 
 footer {
-  font-family: 'Play', sans-serif;
+  font-family: 'Handjet', sans-serif;
+  font-size: 2.5vh;
   color: greenyellow;
+  background-color: black;
+  border: solid 2px greenyellow;
   justify-content: center;
   text-align: center;
 }
@@ -51,7 +54,7 @@ section {
   background-color: black;
   display: flex;
   flex-wrap: wrap;
-  border: solid 1px greenyellow;
+  border: solid 1px orange;
 }
 
 
@@ -72,21 +75,21 @@ section {
   width: 100px;
   height: 100px;
   background-color: black;
-  border: solid 2px beige;
+  border: solid 2px orange;
   box-sizing: border-box;
 }
 
 .circle {
-  height: 90px;
-  width: 90px;
+  height: 95px;
+  width: 95px;
   border-radius: 50%;
   border: 12px solid greenyellow;
   box-sizing: border-box;
 }
 
 .dot {
-  height: 90px;
-  width: 90px;
+  height: 95px;
+  width: 95px;
   background-color: orangered;
   border-radius: 50%;
   display: flex;
