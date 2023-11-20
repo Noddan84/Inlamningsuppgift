@@ -157,7 +157,7 @@ function choosePlayers() {
     event.preventDefault();
     console.dir(select2)
     console.log(select2.selectedIndex);
-    lineName = select2.options[select2.selectedIndex].value; 
+    dotName = select2.options[select2.selectedIndex].value; 
   });
 }
 
